@@ -1,0 +1,19 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+  "username":"manoj2632",
+  "name": "manoj",
+  "password": "Manoj2002"
+}
+
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username":"manoj2632",
+  "password": "Manoj2002"
+}
